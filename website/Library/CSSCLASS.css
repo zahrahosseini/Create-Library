@@ -1,0 +1,31 @@
+﻿.mycss
+{
+ font-weight:bold;
+ color: Purple;
+}
+.TreeView1
+{
+    display:inline;
+    }
+ .mytable
+ {
+     border-color:BlueViolet;
+     border-style:double;
+     border-width:3px;
+     background-color:Lavender;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     border-radius: 5px;
+     }
+  .mytable tr:nth-child(even)
+  {
+       background-color:#E9E4F9;
+      }
+  .mytable tr:nth-child(odd)
+  {
+       background-color:#BCC7FB;
+      }
+  .mytable th
+ {
+     background-color:#B69CF3;
+     }

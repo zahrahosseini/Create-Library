@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage1.master.cs" Inherits="MasterPage1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+     <link rel="Stylesheet" href="CSSCLASS.css" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            font-family: "ROAD MOVIE";
+            font-size: xx-large;
+            color:DarkMagenta;
+            display:inline;
+        }
+    </style>
+
+</head>
+<body bgcolor="Lavender">
+    <form id="form1" runat="server">
+    <p>
+    <asp:Image ID="Image1" runat="server" BorderColor="#1F7ECD" 
+        BorderStyle="Double" BorderWidth="3px" ImageUrl="~/library.jpg" Height="92px" 
+            Width="181px" />
+        <span class="style1">&nbsp; LIBRARY SYSTEM</span><br class="style1" />
+    </p>
+    <div>
+    <asp:TreeView ID="TreeView1" runat="server" Font-Bold="False" 
+            Font-Names="Autobahn Stencil" Font-Overline="False" Font-Underline="True">
+        <Nodes>
+            <asp:TreeNode Text="Insert Book" Value="Insert Book" 
+                NavigateUrl="~/Default6.aspx"></asp:TreeNode>
+            <asp:TreeNode NavigateUrl="~/Default3.aspx" Text="Show Books" 
+                Value="Show Books"></asp:TreeNode>
+            <asp:TreeNode NavigateUrl="~/Default4.aspx" Text="Edit Book" Value="Edit Book">
+            </asp:TreeNode>
+            <asp:TreeNode NavigateUrl="~/Default5.aspx" Text="Search Book" 
+                Value="Search Book"></asp:TreeNode>
+        </Nodes>
+    </asp:TreeView>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <p>
+                <br />
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <p>
+        Produced by:Seyedehzahra Hosseini</p>
+</body>
+</html>
